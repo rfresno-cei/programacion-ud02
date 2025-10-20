@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        decimalABinOctHex(192830);
+        System.out.println("Ejercicios");
     }
 
     // Ejercicio 15 octubre - 11
@@ -18,6 +18,7 @@ public class Main {
         return Integer.parseInt(numero, 16);
     }
 
+    // Ejercicio 15 octubre - 14
     static void decimalABinOctHex(int numero) {
         System.out.println(Integer.toBinaryString(numero));
         System.out.println(Integer.toOctalString(numero));
